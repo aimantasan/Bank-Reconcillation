@@ -77,7 +77,7 @@ onMounted(() => {
           <div class="flex flex-auto gap-3 justify-center items-center">
             <img
               class="h-24 block"
-              src="@/assets/img/logo/logo-full-transparent.webp"
+              src="@/assets/img/logo/logo-colour.png"
               alt=""
             />
           </div>

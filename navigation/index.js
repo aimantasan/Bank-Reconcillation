@@ -1,15 +1,29 @@
 export default [
   {
-    "header": "",
-    "description": "",
+    "header": "Settlement",
+    "description": "Modules for Settlement",
     "child": [
       {
-        "title": "Dashboard",
-        "path": "/dashboard",
-        "icon": "ic:outline-dashboard",
+        "title": "Extractor",
+        "path": "/user/extractor",
+        "icon": "mdi:code-tags-check",
         "child": [],
         "meta": {}
-      }
+      },
+      {
+        "title": "Date Changer",
+        "path": "/user/datechanger",
+        "icon": "material-symbols:calendar-month-outline",
+        "child": [],
+        "meta": {}
+      },
+      {
+        "title": "DN Santai Duplicate",
+        "path": "/user/dnsantaiduplicate",
+        "icon": "uil:money-bill",
+        "child": [],
+        "meta": {}
+      },
     ]
   },
   {

@@ -1,9 +1,9 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   runtimeConfig: {
-    auth: {
-      secretAccess: process.env.NUXT_ACCESS_TOKEN_SECRET,
-      secretRefresh: process.env.NUXT_REFRESH_TOKEN_SECRET,
+    public: {
+      feURL: process.env.NUXT_FE_URL,
+      apiURL: process.env.NUXT_API_URL,
     },
   },
   modules: [

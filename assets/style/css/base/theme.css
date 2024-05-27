@@ -96,20 +96,20 @@ html[data-theme="nier"] {
   --tw-shadow: #e5eaf2;
 }
 
-html[data-theme="custom1"] {
-  --color-primary: 9, 76, 90;
-  --color-secondary: 62, 72, 83;
+html[data-theme="toyyibPay"] {
+  --color-primary: 153, 130, 188;
+  --color-secondary: 244, 139, 37;
   --color-accent: 0, 103, 236;
-  --color-success: 11, 152, 76;
-  --color-info: 208, 89, 41;
-  --color-warning: 229, 197, 13;
-  --color-danger: 238, 5, 34;
+  --color-success: 79, 192, 103;
+  --color-info: 65, 133, 242;
+  --color-warning: 246, 141, 32;
+  --color-danger: 229, 83, 69;
   --text-color: 15, 15, 14;
   --border-color: 153, 152, 131;
-  --bg-1: 214, 215, 206;
-  --bg-2: 235, 232, 217;
-  --scroll-color: 9, 76, 90;
-  --scroll-hover-color: 9, 76, 90;
+  --bg-1: 243, 244, 246;
+  --bg-2: 255, 255, 255;
+  --scroll-color: 244, 139, 37;
+  --scroll-hover-color:153, 130, 188;
   --box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --cp-bg: 255, 255, 255;
   --rounded-box: 0.5rem;

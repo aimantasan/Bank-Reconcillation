@@ -52,11 +52,11 @@ export default function () {
       ],
     },
     {
-      theme: "custom1",
+      theme: "toyyibPay",
       colors: [
         {
           name: "primary",
-          value: "9, 76, 90",
+          value: "153, 150, 188",
         },
         {
           name: "secondary",

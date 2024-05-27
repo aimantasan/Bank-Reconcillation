@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Mawar | Innovative solutions for captivating content",
+  title: "Tools | Settlement Tools for Daily Recurring Tasks",
   description: "Home page",
   htmlAttrs: {
     lang: "en",
