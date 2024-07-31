@@ -85,7 +85,7 @@ onMounted(() => {
       </div>
 
       <div class="flex gap-2 item-center justify-items-end">
-        <VDropdown placement="bottom-end" distance="13" name="language">
+        <!-- <VDropdown placement="bottom-end" distance="13" name="language">
           <button class="icon-btn h-10 w-10 rounded-full">
             <country-flag :country="languageNow.flagCode" />
           </button>
@@ -107,8 +107,8 @@ onMounted(() => {
               </li>
             </ul>
           </template>
-        </VDropdown>
-        <VDropdown placement="bottom-end" distance="13" name="theme">
+        </VDropdown> -->
+        <!-- <VDropdown placement="bottom-end" distance="13" name="theme">
           <button class="icon-btn h-10 w-10 rounded-full">
             <Icon size="22px" name="material-symbols:format-paint-rounded" />
           </button>
@@ -133,9 +133,9 @@ onMounted(() => {
               </li>
             </ul>
           </template>
-        </VDropdown>
+        </VDropdown> -->
 
-        <button @click="toggleSearch" class="icon-btn h-10 w-10 rounded-full">
+        <!-- <button @click="toggleSearch" class="icon-btn h-10 w-10 rounded-full">
           <Icon name="ic:round-search" class="" />
         </button>
 
@@ -200,7 +200,7 @@ onMounted(() => {
               </NuxtScrollbar>
             </ul>
           </template>
-        </VDropdown>
+        </VDropdown> -->
 
         <VDropdown placement="bottom-end" distance="13" name="profile">
           <button class="icon-btn profile px-2">
@@ -213,9 +213,9 @@ onMounted(() => {
               class="grid grid-cols-1 text-left ml-3 flex-none"
             >
               <p class="font-semibold text-sm truncate w-24 mb-0">John Doe</p>
-              <span class="font-medium text-xs truncate w-24"
+              <!-- <span class="font-medium text-xs truncate w-24"
                 >RM 10,000.00</span
-              >
+              > -->
             </div>
             <Icon name="ic:outline-keyboard-arrow-down" class="ml-3" />
           </button>

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Tools | Settlement Tools for Daily Recurring Tasks",
+  title: "toyyibPay Recon",
   description: "Home page",
   htmlAttrs: {
     lang: "en",
@@ -17,7 +17,7 @@ onMounted(() => {
   }, 1000);
 
   // Get theme from localStorage
-  let theme = localStorage.getItem("theme") || "default";
+  let theme = localStorage.getItem("theme") || "rose";
   document.documentElement.setAttribute("data-theme", theme);
 });
 </script>

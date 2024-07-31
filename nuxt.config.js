@@ -60,9 +60,9 @@ export default defineNuxtConfig({
       type: "module",
     },
     manifest: {
-      name: "Mawar",
-      short_name: "Mawar",
-      theme_color: "#FF3E65",
+      name: "toyyibPay Bank Reconciliation System",
+      short_name: "toyyibPay Recon",
+      theme_color: "#5E55C0",
       background_color: "#FAFAFA",
       display: "standalone",
       scope: "./",

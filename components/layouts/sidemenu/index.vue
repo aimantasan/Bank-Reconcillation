@@ -30,18 +30,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="vertical-menu">
+  <div class="vertical-menu flex flex-col bg-primary text-white/80">
     <div class="py-2 px-4">
       <nuxt-link to="/">
         <div class="flex flex-auto gap-3 justify-center items-center h-[48px]">
           <img
-            class="h-8 block dark:hidden"
-            src="@/assets/img/logo/logo-colour.png"
-            alt=""
+            class="block dark:hidden"
+            src="@/assets/img/logo/logo-white.svg"
+            alt="toyyibpay"
           />
           <img
-            class="h-8 hidden dark:block"
-            src="@/assets/img/logo/logo-colour.png"
+            class="hidden dark:block"
+            src="@/assets/img/logo/logo-white.svg"
             alt=""
           />
           <!-- <span class="text-xl font-semibold text-primary dark:text-white"

@@ -3,7 +3,7 @@ import { defineStore, skipHydrate } from "pinia";
 export const useThemeStore = defineStore({
   id: "theme",
   state: () => ({
-    theme: "toyyibPay",
+    theme: "rose",
     layoutType: "vertical",
     codeTheme: "oneDark",
   }),

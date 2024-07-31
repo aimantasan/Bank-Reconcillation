@@ -42,7 +42,7 @@ const login = async () => {
         showConfirmButton: false,
       });
 
-      window.location.href = "/dashboard";
+      window.location.href = "/user/uploader";
     } else {
       $swal.fire({
         title: "Error!",

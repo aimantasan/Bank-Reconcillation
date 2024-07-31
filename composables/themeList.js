@@ -1,7 +1,7 @@
 export default function () {
   return [
     {
-      theme: "default",
+      theme: "rose",
       colors: [
         {
           name: "primary",

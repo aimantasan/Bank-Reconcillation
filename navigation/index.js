@@ -1,27 +1,167 @@
 export default [
+  
   {
-    "header": "Settlement",
-    "description": "Modules for Settlement",
+    "header": "",
+    "description": "",
+    "child": [
+      // {
+      //   "title": "Dashboard",
+      //   "path": "/dashboard",
+      //   "icon": "material-symbols:dashboard",
+      //   "child": [],
+      //   "meta": {}
+      // },
+      {
+        "title": "Uploader",
+        "path": "/user/uploader",
+        "icon": "material-symbols:upload-file-outline",
+        "child": [],
+        "meta": {}
+      },
+    ]
+  },
+  {
+    "header": "Credit Management",
+    "description": "Oversee the IN Cashflow",
     "child": [
       {
-        "title": "Extractor",
-        "path": "/user/extractor",
-        "icon": "mdi:code-tags-check",
-        "child": [],
+        "title": "Credit Data",
+        "path": "",
+        "icon": "material-symbols:step-into",
+        "child": [
+          {
+            "title": "Unrefined Data",
+            "path": "",
+            "icon": "",
+            "child": [
+              {
+                "title": "Bank Statement (BS)",
+                "path": "/user/credit/unrefined/bank-statement",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "MyPay (MP)",
+                "path": "/user/credit/unrefined/mypay",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "toyyibPay (TP)",
+                "path": "/user/credit/unrefined/toyyibpay",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+
+            ],
+            "meta": {}
+          },
+          {
+            "title": "Refined Data",
+            "path": "",
+            "icon": "",
+            "child": [
+              {
+                "title": "BS & MP",
+                "path": "/user/credit/refined/bs-mp",
+                "icon": "mdi:numeric-1-box",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "MP & TP",
+                "path": "/user/credit/refined/mp-tyP",
+                "icon": "mdi:numeric-1-box",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "Full Refined Data",
+                "path": "/user/credit/refined/full-refined",
+                "icon": "mdi:numeric-2-box",
+                "child": [],
+                "meta": {}
+              },
+            ],
+            "meta": {}
+          },
+        ],
         "meta": {}
       },
+    ]
+  },
+  {
+    "header": "Debit Management",
+    "description": "Oversee the OUT Cashflow",
+    "child": [
       {
-        "title": "Date Changer",
-        "path": "/user/datechanger",
-        "icon": "material-symbols:calendar-month-outline",
-        "child": [],
-        "meta": {}
-      },
-      {
-        "title": "DN Santai Duplicate",
-        "path": "/user/dnsantaiduplicate",
-        "icon": "uil:money-bill",
-        "child": [],
+        "title": "Debit Data",
+        "path": "",
+        "icon": "material-symbols:step-out",
+        "child": [
+          {
+            "title": "Unrefined Data",
+            "path": "",
+            "icon": "",
+            "child": [
+              {
+                "title": "Bank Statement Debit(BSD)",
+                "path": "/user/debit/unrefined/bank-statement-debit",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "Settlement Data (ST)",
+                "path": "/user/debit/unrefined/settlement",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "Reconcilled Credit Data (RD)",
+                "path": "/user/debit/unrefined/reconcilled-credit",
+                "icon": "ph:circle-duotone",
+                "child": [],
+                "meta": {}
+              },
+            ],
+            "meta": {}
+          },
+          {
+            "title": "Refined Data",
+            "path": "",
+            "icon": "",
+            "child": [
+              {
+                "title": "BSD & ST",
+                "path": "/user/debit/refined/bs-st",
+                "icon": "mdi:numeric-1-box",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "ST & RD",
+                "path": "/user/debit/refined/st-rd",
+                "icon": "mdi:numeric-1-box",
+                "child": [],
+                "meta": {}
+              },
+              {
+                "title": "Full Refined Data",
+                "path": "/user/debit/refined/full-refined",
+                "icon": "mdi:numeric-2-box",
+                "child": [],
+                "meta": {}
+              },
+              
+            ],
+            "meta": {}
+          },
+        ],
         "meta": {}
       },
     ]

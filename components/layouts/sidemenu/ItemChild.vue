@@ -66,10 +66,10 @@ function activeMenu(routePath) {
             dark:shadow-primary/10
             text-white
             bg-gradient-to-r
-            from-primary
-            to-primary/90
+            from-secondary
+            to-secondary/90
             active-menu`
-    : `transition-all	duration-300 hover:ml-4`;
+: `transition-all	duration-300 hover:ml-4`;
 }
 
 function toggleMenu() {
@@ -113,7 +113,7 @@ const indentStyle = computed(() => {
           v-if="
             item.child === undefined || (item.child && item.child.length === 0)
           "
-          class="flex items-center px-4 py-3 mx-3 rounded-lg cursor-pointer"
+          class="flex items-center px-4 py-3 mx-3 my-1 rounded-lg cursor-pointer"
           @click="navigationPage(item.path, item.external)"
           :class="activeMenu(item.path)"
         >

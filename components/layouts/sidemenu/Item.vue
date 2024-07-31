@@ -66,8 +66,8 @@ function activeMenu(routePath) {
             shadow-primary/50
             dark:shadow-primary/10
             text-white
-            bg-gradient-to-r
-            from-primary
+            bg-secondary
+            from-secondary
             to-primary/90
             active-menu`
     : `transition-all	duration-300 hover:ml-4`;
@@ -96,12 +96,12 @@ function navigationPage(path, external) {
     >
       <div
         v-if="item.header"
-        class="text-left font-normal text-xs mx-6 mt-5 mb-2"
+        class="text-left font-normal text-xs mx-6 mt-6 mb-2"
       >
-        <span class="uppercase text-primary dark:text-primary">
+        <span class="uppercase text-white dark:text-primary">
           {{ item.header ? item.header : "" }}
         </span>
-        <p class="text-gray-500 dark:text-gray-500">
+        <p class="text-white dark:text-gray-500">
           {{ item.description ? item.description : "" }}
         </p>
       </div>

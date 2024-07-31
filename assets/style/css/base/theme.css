@@ -1,7 +1,7 @@
-html[data-theme="default"] {
-  --color-primary: 243, 88, 106;
-  --color-secondary: 240, 122, 37;
-  --color-accent: 243, 244, 246;
+html[data-theme="rose"] {
+  --color-primary: 94, 85, 192;
+  --color-secondary: 244, 148, 52;
+  --color-accent: 55, 198, 244;
   --color-success: 79, 192, 103;
   --color-info: 65, 133, 242;
   --color-warning: 246, 141, 32;
@@ -9,7 +9,7 @@ html[data-theme="default"] {
   /* --text-color: 33, 31, 41; */
   --text-color: 35, 31, 32;
   --border-color: 233, 233, 236;
-  --bg-1: 243, 244, 246;
+  --bg-1: 249, 250, 251;
   --bg-2: 255, 255, 255;
   --scroll-color: 170, 170, 170;
   --scroll-hover-color: 155, 155, 155;
